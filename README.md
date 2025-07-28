@@ -42,16 +42,7 @@ Features user registration/login, password reset via email, book management, and
    go mod tidy
    ```
 
-3. **Configure environment variables:**
-
-   Create a `.env` file or edit `config.go` with your settings:
-   ```
-   DSN=your_database_dsn
-   JWT_SECRET=your_jwt_secret
-   EMAIL_API_KEY=your_resend_api_key
-   EMAIL_SENDER=your_verified_sender_email
-   APP_PORT=3001
-   ```
+3. **Configure your environment variables and database connection as needed.**
 
 4. **Run database migrations (if needed):**
    ```
@@ -116,4 +107,4 @@ MIT
 ---
 
 **Contributions welcome!**  
-Feel free to open issues
+Feel free to open issues or pull requests.
